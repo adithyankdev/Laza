@@ -1,0 +1,126 @@
+*{
+    margin: none;
+    
+}
+
+
+
+.nav-item .nav-link {
+    
+    font-family: pple-system,BlinkMacSystemFont,"Segoe UI,Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji";
+    text-decoration: none;
+    font-size: 100%;
+   color: #fff;
+ 
+    text-transform: uppercase;
+   
+  
+}
+
+.nav-item .nav-link:hover{
+    color: #be9509;
+}
+.bigimg{
+    width: 100%;
+    height: auto;
+}
+.head{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 3%;
+
+}
+.item{
+    text-align: center;
+
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.listhd{
+   font-weight: bold;
+   color: #be9509;
+   padding-bottom: 7%;
+   padding-top: 5%;
+   text-transform: uppercase;
+   list-style: none;
+}
+.listtxt{
+    color: #be9509;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+}
+.bs-navbar-toggler-icon-bg{
+   background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.cokone{
+   width: 1000px;
+    margin: auto;
+}
+.coktwo{
+  width: 85%;
+  margin: auto;
+}
+#cookies{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #eaeaea;
+    background-color: #797979;
+    font-size: 1rem;
+    font-family: 'Roboto',sans-serif;
+    z-index: 1;
+   
+}
+.cookies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.cookies a {
+    color: rgb(202, 241, 6);
+    text-decoration: none;
+}
+
+#cookies-btn{
+    border-radius: 5px;
+    padding: 8px;
+    font-family: inherit;
+    border-color: #fff;
+    margin-bottom: 10px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+@media(max-width:1000px){
+    .cokone{
+        width: 100%;
+    }
+}
+@media(max-width:1024px){
+    .cookies{
+        padding: 10px 0;
+    }
+}
+
+
+
+
+    
+
+
+
+
